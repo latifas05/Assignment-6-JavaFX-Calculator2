@@ -105,17 +105,17 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button onAction="#handleEquals" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="," textFill="#626262" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <Button onAction="#handleComma" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="," textFill="#626262" GridPane.columnIndex="2" GridPane.rowIndex="5">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" onAction="#handleOperator" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="+/-" textFill="#626262" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" onAction="#handleToggleSign" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="+/-" textFill="#626262" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" onAction="#handleOperator" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="\%" textFill="#626262" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" onAction="#handlePercentage" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: FFCDC4;" text="\%" textFill="#626262" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="18.0" />
                </font>
